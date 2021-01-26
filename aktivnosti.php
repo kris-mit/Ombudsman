@@ -15,8 +15,19 @@
     <a href="podnesi-prituzbu.php" class="floating-cta"><p>Поднеси <br>притужбу</p></a>
 
     <div class="page-content-outer">
-        <section class="news activities">
+        <section class="news activities">    
             <div class="wrapper">
+            <div class="activity-filter col-12">
+                <label>Категорије</label>
+                <select class= "style-btn" name="activity" id="choose">
+                    <option value="value1">Све активности</option>
+                    <option value="value2">Новости</option>
+                    <option value="value3">Информације</option>
+                    <option value="value4">Саветовања</option>
+                    <option value="value4">Семинари</option>
+                    <option value="value4">Обуке</option>
+                </select>
+            </div>
                 <ul class="col-9 activity-col">
                     <li class="col-4 activity-box">
                         <a href="novost.php">
@@ -136,8 +147,10 @@
                         <li><a href="#">10</a></li>
                         <li><a href="#"><i class="fal fa-arrow-right"></i></a></li>
                     </ul>
+
                 </ul>
                 <div class="col-1"></div>
+                
                 <ul class="col-2 navigation-bar">
                     <li class="head active"><a href="#">Све Активности</a></li>
                     <li><a href="novost.php">Новости</a></li>
@@ -146,9 +159,23 @@
                     <li><a href="novost.php">Семинари</a></li>
                     <li><a href="novost.php">Обуке</a></li>
                 </ul>
+                <ul class="activity-pagination col-12">
+                    <label>Strane</label>
+                    <select class= "style-btn" name="pagination" id="choose">
+                        <option value="value1">1</option>
+                        <option value="value2">2</option>
+                        <option value="value3">3</option>
+                        <option value="value4">4</option>
+                        <option value="value4">5</option>
+                        <option value="value4">6</option>
+                        <option value="value4">7</option>
+                        <option value="value4">8</option>
+                        <option value="value4">9</option>
+                        <option value="value4">10</option>
+                        </select>
+                </ul>
             </div>
         </section>
-
         <div class="wrapper">
             <section class="support">
                 <article class="col-6">

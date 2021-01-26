@@ -270,7 +270,6 @@
                     </div>
                 </li>
             </ul>
-            <p class="toggle-item-content"> Test test</p>
         </section>
 
         <section class="support">

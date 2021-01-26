@@ -54,7 +54,6 @@
 
     <script src="./js/toggle.js"></script>
     <script src="./js/responsive-menu.js"></script>
-    <script src="./js/contact-form.js"></script>
     </body>
 </html>
 

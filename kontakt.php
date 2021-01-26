@@ -19,8 +19,8 @@
         <div class="wrapper form-page contact-page">
             <div class="form-content col-8">
                 <h5 class="underline">Пошаљите нам поруку.</h5>
-                <form>
-                    <ul class="form">
+                <form id="form_contact">
+                    <ul class="form_list">
                         <li class="split">
                             <span class="half">
                                 <label>ИМЕ<em>*</em></label>
@@ -44,7 +44,7 @@
                         <li class="split">
                             <span class="half full">
                             <label>РАЗЛОГ ЈАВЉАЊА<em>*</em></label>
-                            <select class= "style-btn" name="cars" id="choose">
+                            <select class= "style-btn" name="contact" id="choose">
                                 <option value="value1">--</option>
                                 <option value="value2">1 opcija</option>
                                 <option value="value3">2 opcija</option>
@@ -95,6 +95,8 @@
             </div>
         </div>
     </div>
+
+    <script src="./js/contact-form.js"></script>
 
     <?php include 'footer.php'; ?>
 
